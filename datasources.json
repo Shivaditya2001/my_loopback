@@ -1,0 +1,19 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "transactional": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "node",
+    "password": "12345",
+    "name": "transactional",
+    "connectionLimit": 10,
+    "user": "root",
+    "connector": "mysql",
+    "debug": false,
+    "connectTimeout": 300000,
+    "acquireTimeout": 300000
+  }
+}

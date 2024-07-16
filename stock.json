@@ -1,0 +1,28 @@
+{
+  "name": "stock",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "stock_name": {
+      "type": "string",
+      "required": true
+    },
+    "nse_price": {
+      "type": "number",
+      "required": true
+    },
+    "bse_price": {
+      "type": "number"
+    },
+    "price_date": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
